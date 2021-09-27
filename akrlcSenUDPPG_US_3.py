@@ -102,7 +102,7 @@ def main():
         saveLocal(data)
         # save data to database
         datetime_utc = datetime.now()
-        wtPGDB(datetime_utc, data)
+        #wtPGDB(datetime_utc, data)
         saveAWSrds(datetime_utc, data)
     udpServer.close()
 
