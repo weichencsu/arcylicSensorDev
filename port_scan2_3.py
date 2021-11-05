@@ -48,7 +48,7 @@ while True:
     if path.exists(form_t + '.txt'):
         continue
     else:
-        os.rename(cpath +'\\tmp.txt',  cpath + '\\' + form_t + '.txt' )
+        os.rename(cpath +'/tmp.txt',  cpath + '/' + form_t + '.txt' )
 
     #print(timer)
     #udpServer.sendto(data.encode(encoding='utf-8'),addr)
